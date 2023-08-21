@@ -9,7 +9,7 @@ import icon4 from "../../assets/Social Icons/Vector.png";
 export default function Footer() {
   return (
     <>
-      <div className="pt-[84px] pb-[21px] bg-[#000033]">
+      <div id="footer" className="pt-[84px] pb-[21px] bg-[#000033]">
         <div className="lg:w-[var(--width)] mx-auto lg:px-0 px-4 text-white">
           <div className="footer lg:flex justify-between items-center">
             <div className="logo">

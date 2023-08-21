@@ -4,7 +4,7 @@ import { LiaLongArrowAltRightSolid } from "react-icons/lia";
 
 export default function HeroSection() {
   return (
-    <div className="bg-[var(--header-bg-color)]">
+    <div id="hero" className="bg-[var(--header-bg-color)]">
       <div className="lg:w-[var(--width)] w-full mx-auto lg:px-0 px-4 ">
         <div className="flex justify-between items-center pt-[78px] pb-3">
           <div className="hero_title">

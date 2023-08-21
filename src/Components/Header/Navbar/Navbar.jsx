@@ -9,7 +9,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="bg-[var(--header-bg-color)]">
+      <div id="header" className="bg-[var(--header-bg-color)]">
         <div className="lg:w-[var(--width)] lg:mx-auto md:w-full w-full py-2 lg:px-0 px-4">
           <div className="logo lg:hidden">
             <div className="flex justify-between items-center">
@@ -28,9 +28,15 @@ export default function Navbar() {
               </div>
               {/* nav_list */}
               <ul className="lg:flex gap-[29px]">
-                <li className=" font-medium">À propos de nous</li>
-                <li className=" font-medium">Catégories</li>
-                <li className=" font-medium">Contactez-nous</li>
+                <a href="#hero">
+                  <li className=" font-medium">À propos de nous</li>
+                </a>
+                <a href="#category">
+                  <li className=" font-medium">Catégories</li>
+                </a>
+                <a href="#notes">
+                  <li className=" font-medium">Contactez-nous</li>
+                </a>
               </ul>
             </div>
             <div className="lg:flex items-center gap-[25px]">

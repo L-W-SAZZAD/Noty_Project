@@ -4,7 +4,7 @@ import SingleNotes from "./SingleNotes";
 
 export default function Notes() {
   return (
-    <div>
+    <div id="notes">
       <div className="bg-[var(--notes-bg-color)]">
         <div className="lg:w-[var(--width)] lg:mx-auto w-full lg:px-0 px-4 pt-[60px]">
           <div className="category_heading flex justify-between items-center">

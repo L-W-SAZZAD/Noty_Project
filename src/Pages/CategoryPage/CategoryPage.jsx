@@ -4,7 +4,7 @@ import CategorySingleItems from "./CategorySingleItems";
 
 export default function CategoryPage() {
   return (
-    <div className="bg-[var(--category-bg)]">
+    <div id="category" className="bg-[var(--category-bg)]">
       <div className="lg:w-[var(--width)] lg:mx-auto w-full lg:px-0 px-4 pt-[52px]">
         <div className="category_heading lg:flex justify-between items-center">
           <div>

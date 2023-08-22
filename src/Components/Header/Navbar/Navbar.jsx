@@ -9,6 +9,10 @@ import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
+  useState(() => {
+    setOpen(false);
+  }, []);
+
   return (
     <>
       <div id="header" className="bg-[var(--header-bg-color)] cursor-pointer">

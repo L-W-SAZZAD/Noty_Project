@@ -20,7 +20,7 @@ export default function HeroSection() {
                 Recherchez un établissement... (Boutiques, Restaurants, etc.)
               </button>
               <div>
-                <button className="lg:w-[230px] w-[200px] h-[65px] rounded-full hero_btn text-white font-semibold flex justify-center items-center">
+                <button className="lg:w-[230px] w-[230px] h-[65px] rounded-full hero_btn text-white font-semibold flex justify-center items-center">
                   Laissez votre avis
                   <LiaLongArrowAltRightSolid size="25px" className="w-[28px]" />
                 </button>

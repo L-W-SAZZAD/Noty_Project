@@ -11,7 +11,7 @@ export default function CategoryPage() {
             <h2 className="lg:text-[32px] text-4xl text-normal text-[#000] font-semibold pb-[18px]">
               Explorez par Catégorie
             </h2>
-            <p className="text-[#4F637B] font-medium ">
+            <p className="text-[#4F637B] font-medium leading-6">
               Découvrez les entreprises et produits les mieux notés dans chaque
               catégorie et trouvez exactement ce que vous cherchez.
             </p>

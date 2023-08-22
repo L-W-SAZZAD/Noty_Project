@@ -16,9 +16,9 @@ export default function CategoryPage() {
               catégorie et trouvez exactement ce que vous cherchez.
             </p>
           </div>
-          <div className="flex items-center lg:pt-0 pt-5 ">
+          <div className="flex items-center  lg:pt-0 pt-5 ">
             <li className="  font-semibold text-xs text-[#006]">Voir Plus</li>
-            <LiaLongArrowAltRightSolid />
+            <LiaLongArrowAltRightSolid size="25px" />
           </div>
         </div>
         {/* category single items */}

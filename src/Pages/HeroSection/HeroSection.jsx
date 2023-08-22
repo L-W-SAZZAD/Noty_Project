@@ -15,8 +15,8 @@ export default function HeroSection() {
             <p className=" text-base font-semibold pt-[40px] pb-[116px]">
               Trouvez les meilleurs produits et services en un seul endroit.
             </p>
-            <div className="btn_wrapper flex items-center gap-[15px]">
-              <button className="lg:w-[456px] md:w-[300px] w-[300px] h-[65px] rounded-full border-[2px] border-[#000066] text-[13px] font-medium text-[#667799]">
+            <div className="btn_wrapper lg:flex items-center gap-[15px]">
+              <button className="lg:w-[456px] md:w-[300px] w-[300px] h-[65px] rounded-full border-[2px] border-[#000066] text-[13px] font-medium text-[#667799] lg:mb-0 mb-5">
                 Recherchez un établissement... (Boutiques, Restaurants, etc.)
               </button>
               <div>

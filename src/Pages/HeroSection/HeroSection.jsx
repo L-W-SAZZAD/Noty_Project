@@ -27,7 +27,7 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-          <div className="hero_pic lg:block md:block hidden">
+          <div className="hero_pic lg:block  hidden">
             <img className="w-[770px] h-[471px]" src={heroPic} alt="" />
           </div>
         </div>

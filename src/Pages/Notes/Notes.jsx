@@ -9,10 +9,10 @@ export default function Notes() {
         <div className="lg:w-[var(--width)] lg:mx-auto w-full lg:px-0 px-4 pt-[60px]">
           <div className="category_heading flex justify-between items-center">
             <div>
-              <h2 className=" text-[32px] text-normal text-[#000080] font-semibold pb-[18px]">
+              <h2 className=" text-[40px] text-normal text-[#000080] font-semibold pb-[29px]">
                 Entreprises les mieux notées
               </h2>
-              <p className="text-[#0066CC] font-medium text-xs">
+              <p className="text-[#0066CC] font-medium text-[20px]">
                 Plongez dans notre sélection des entreprises les mieux évaluées
                 et les plus recommandées par nos utilisateurs satisfaits.
               </p>

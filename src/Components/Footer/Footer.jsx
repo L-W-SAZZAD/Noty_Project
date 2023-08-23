@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="footer lg:flex justify-between items-center">
             <div className="logo">
               <img src={logo} alt="logo" />
-              <p className="w-[336px] pt-[10px] leading-6 text-[14px]">
+              <p className="w-[406px] pt-[10px] leading-7 text-[17px] text-[#fff]">
                 Construisant des ponts entre les consommateurs et les
                 entreprises pour une meilleure expérience de consommation en
                 Tunisie.
@@ -22,30 +22,44 @@ export default function Footer() {
             </div>
             <div className="footer_list flex gap-[100px] lg:pt-0 pt-5">
               <div>
-                <h2 className="text-[20px] font-medium text-white pb-[33px]">
+                <h2 className="text-[25px] font-medium text-white pb-[33px]">
                   Noty
                 </h2>
-                <li className="text-[16px] font-medium">Notre mission</li>
-                <li className="text-[16px] font-medium">Carrières</li>
-                <li className="text-[16px] font-medium">Nous contacter</li>
-                <li className="text-[16px] font-medium">Guide d’utilisation</li>
+                <li className="text-[19px] font-medium pb-4 text-[#D0D0D0]">
+                  Notre mission
+                </li>
+                <li className="text-[19px] font-medium pb-4 text-[#D0D0D0]">
+                  Carrières
+                </li>
+                <li className="text-[19px] font-medium pb-4 text-[#D0D0D0]">
+                  Nous contacter
+                </li>
+                <li className="text-[16px] font-medium text-[#D0D0D0]">
+                  Guide d’utilisation
+                </li>
               </div>
               <div>
-                <h2 className="text-[20px] font-medium text-white pb-[33px]">
+                <h2 className="text-[25px] font-medium text-white pb-[33px]">
                   Entreprises
                 </h2>
-                <li className="text-[16px] font-medium">Pourquoi Noty?</li>
-                <li className="text-[16px] font-medium">Plans & tarifs</li>
-                <li className="text-[16px] font-medium">Espace Entreprise</li>
+                <li className="text-[19px] font-medium pb-4 text-[#D0D0D0]">
+                  Pourquoi Noty?
+                </li>
+                <li className="text-[19px] font-medium pb-4 text-[#D0D0D0]">
+                  Plans & tarifs
+                </li>
+                <li className="text-[19px] font-medium pb-4 text-[#D0D0D0]">
+                  Espace Entreprise
+                </li>
               </div>
               <div>
-                <h2 className="text-[20px] font-medium text-white pb-[33px]">
+                <h2 className="text-[25px] font-medium text-white pb-[33px]">
                   Légal
                 </h2>
-                <li className="text-[16px] font-medium">
+                <li className="text-[19px] font-medium pb-4 text-[#D0D0D0]">
                   Conditions d'utilisation
                 </li>
-                <li className="text-[16px] font-medium">
+                <li className="text-[19px] font-medium pb-4 text-[#D0D0D0]">
                   Politique de confidentialité
                 </li>
               </div>
@@ -62,10 +76,10 @@ export default function Footer() {
               </div>
             </div>
             <div className="social_icons flex gap-5 items-center justify-center">
-              <img className="w-[16px] h-[16px]" src={icon3} alt="logo" />
-              <img className="w-[16px] h-[16px]" src={icon1} alt="logo" />
-              <img className="w-[16px] h-[16px]" src={icon2} alt="logo" />
-              <img className="w-[16px] h-[16px]" src={icon4} alt="logo" />
+              <img className="w-[20px] h-[20px]" src={icon3} alt="logo" />
+              <img className="w-[20px] h-[20px]" src={icon1} alt="logo" />
+              <img className="w-[20px] h-[20px]" src={icon2} alt="logo" />
+              <img className="w-[20px] h-[20px]" src={icon4} alt="logo" />
             </div>
           </div>
         </div>

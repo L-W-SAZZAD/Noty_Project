@@ -5,6 +5,7 @@ import CategoryPage from "../CategoryPage/CategoryPage";
 import Notes from "../Notes/Notes";
 import { useLocation } from "react-router-dom";
 import { BsArrowUpCircleFill } from "react-icons/bs";
+import ModalTap from "../../Utilitis/ModalTap/ModalTap";
 
 export default function Home() {
   const { pathname } = useLocation();
@@ -35,6 +36,7 @@ export default function Home() {
         <HeroSection />
         <CategoryPage />
         <Notes />
+
         {bottomScroll && (
           <BsArrowUpCircleFill
             onClick={scrollUp}

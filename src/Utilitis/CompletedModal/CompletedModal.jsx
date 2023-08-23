@@ -46,7 +46,7 @@ export default function CompletedModal({
                 avez besoin d'aide supplémentaire. Merci pour votre confiance !
               </p>
 
-              <div className="pl-7 pb-10">
+              <div className=" pb-10">
                 <button
                   onClick={() => {
                     setCheckOut(true);
